@@ -9,6 +9,6 @@ solutions. This approach has been applied successfully to N-body problems using 
  to specify the computations in an N-body problem without any implementation or platform-specific details. Using the PNBsolver, the domain users are 
 allowed to control the platform and implementation of the generated code. The accuracy and execution time of the generated code can also be fine-tuned 
 based on the parameters provided in PNBsolver. We have included in this paper, some of the common N-body interactions showing how it can be implemented 
-using PNBsolver. Please find more details in the PDF file below.
+using PNBsolver.
 
 More information is available <a href="https://sites.google.com/site/nbodysolver/">here</a>
