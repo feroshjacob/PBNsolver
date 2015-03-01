@@ -1,0 +1,59 @@
+\documentclass[11pt,stdletter,dateleft,orderfromtodate]{newlfm}
+%\documentclass[11pt,stdletter]{newlfm}
+\usepackage{charter}
+\usepackage{url}
+
+\widowpenalty=1000
+\clubpenalty=1000
+%\newlfmP{headermarginskip=1pt}
+\newlfmP{sigsize=11pt}
+%\newlfmP{dateskipafter=30pt}
+%\newlfmP{addrfromphone}
+%\newlfmP{addrfromemail}
+%\PhrPhone{Phone}
+%\PhrEmail{Email}
+
+%\lthUiuc
+
+\newcommand\addone{Professor Edward. K. Blum, Managing Editor }
+\newcommand\addtwo{Journal of Computer and System Sciences }
+\newcommand\addthree{Mathematics Department, University of Southern California, LA, CA-90089}
+\newcommand\salute{Sir}
+
+\namefrom{Ferosh Jacob \\
+	112 Cumberland Gate Ln
+	Smyrna, GA 30080\\
+	Email: fjacob@crimson.ua.edu
+}
+
+\addrto{%
+\addone \\ 
+\addtwo \\ 
+\addthree \\
+}
+
+\PhrRegard{Subject}
+\regarding{\textbf{Journal of Computer and System Sciences  submission}}
+\greetto{Dear \salute}
+\closeline{Sincerely,}
+\begin{document}
+\begin{newlfm}
+
+ I am writing to submit our paper titled ``PNBsolver: A Domain-Specific Language for Modeling Parallel 
+ Nbody Problems`` for publication in the Journal of Computer and System Sciences.
+
+ In this paper, we introduce a two-stage modeling approach that allows domain users to express the
+ problem using domain constructs and reuse the available optimized solutions. This approach has been
+ applied successfully to N-body problems using a domain-specific language called PNBsolver, which
+ allows domain users to specify the computations in an N-body problem without any implementation or
+ platform-specific details. Using the PNBsolver, the domain users are allowed to control the platform and
+ implementation of the generated code. The accuracy and execution time of the generated code can also
+ be fine-tuned based on the parameters provided in PNBsolver. We have included in this paper, some of
+ the common N-body interactions showing how it can be implemented using PNBsolver.
+
+ We confirm that this manuscript has not been published elsewhere and is not under consideration by
+ another journal. All authors have approved the manuscript and agree with its submission to Journal of
+ Computer and System Sciences.
+\end{newlfm}
+\end{document}
+
