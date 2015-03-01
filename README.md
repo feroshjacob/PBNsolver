@@ -11,3 +11,4 @@ allowed to control the platform and implementation of the generated code. The ac
 based on the parameters provided in PNBsolver. We have included in this paper, some of the common N-body interactions showing how it can be implemented 
 using PNBsolver. Please find more details in the PDF file below.
 
+More information is available <a href="https://sites.google.com/site/nbodysolver/">here</a>
